@@ -1,0 +1,395 @@
+[
+    {
+    "nimi":"Etelä-Konnevesi",
+    "lat":62.249,
+    "lng":26.70893,
+    "osoite":"Konnekoskentie 552, Rautalampi",
+    "aktiviteetti":["patikointi, pyöräily, melonta"],
+    "reitit":"Loukkuvuoren lenkki rengasreitti (2,8km), Kalajan kierros rengasreitti (4,6km), Kolmen vuoren vaellus rengasreitti (16km)",
+    "web":"?"
+    },
+    {
+    "nimi":"Helvetinjärvi",
+    "lat":62.02341,
+    "lng":23.84638,
+    "osoite":"Helvetinkoluntie 775, Ruovesi",
+    "aktiviteetti":["patikointi, melonta"],
+    "reitit":"Helvetistä itään -luontopolku (4km), Haukanhiedalta Helvetinkolulle ja takaisin (11km)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Hiidenportti",
+    "lat":63.87415,
+    "lng":29.05615,
+    "osoite":"Hiidenportintie 86, Sotkamo",
+    "aktiviteetti":["patikointi, hiihto"],
+    "reitit":"Hiiden kierros (3-5km), Kitulankierros (11km)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Hossa",
+    "lat":65.46781,
+    "lng":29.51811,
+    "osoite":"Jatkonsalmentie 6, Suomussalmi",
+    "aktiviteetti":["patikointi, pyöräily, melonta"],
+    "reitit":"Hossan luontopolku (3km), Muikunpuron mutka (1,5km),Ölökyn ylitys (5km), Ölökyn Ähkäsy (10km),Värikallion kaarros (8km), Laukkujärven lenkki (10km), Pyöräilyreitit erikseen",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Isojärvi",
+    "lat":61.69059,
+    "lng":25.00193,
+    "osoite":"Kylämäntie 1335, Kuhmoinen",
+    "aktiviteetti":["patikointi, pyöräily, melonta"],
+    "reitit":"Heretyn luontopolku (2km), Hevosenlenkki (6km), Savottapolku (10km), Jätkänpolku (11km), Majavapolku (3,8km), Isojärvi MTB (16km)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Itäinen Suomenlahti",
+    "lat":60.34780,
+    "lng":27.45775,
+    "osoite":"?",
+    "aktiviteetti":["patikointi"],
+    "reitit":"Ulko-Tammion luontopolku (3km)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Kauhaneva-Pohjankangas",
+    "lat":62.19575,
+    "lng":22.45037,
+    "osoite":"Kyrönkankaantie 345, Karvia",
+    "aktiviteetti":["patikointi, pyöräily"],
+    "reitit":"Kauhalammin kierros rengasreitti (2,7km), Katikankanjoni rengasreitti (2km), Pyöräilyreitti erikseen",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Koli",
+    "lat":63.09674,
+    "lng":29.80618,
+    "osoite":"Ylä-Kolintie 31, Lieksa",
+    "aktiviteetti":["patikointi, pyöräily, melonta"],
+    "reitit":"Nousu Ukko-Kolille (1,6km), Nousu Akka-Kolille (1,6km), Paha-Koli (2,4km), Huippujen kierros rengasreitti (1,4km), Kolinuuronkierros rengasreitti (3,5km), Heräjärven kierros (30-61km)",
+    "web":"kotisivuKoli.html"
+
+    },
+    {
+    "nimi":"Kolovesi",
+    "lat":62.26573,
+    "lng":28.78730,
+    "osoite":"Kirkkorannantie 200, Enonkoski",
+    "aktiviteetti":["patikointi, melonta"],
+    "reitit":"Nahkiaissalon luontopolku (3,3km), Mäntysalon polku (3,8km)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Kurjenrahka",
+    "lat":60.73990,
+    "lng":22.41307,
+    "osoite":"Kuhankuonontie 67, Pöytyä",
+    "aktiviteetti":["patikointi, hiihto"],
+    "reitit":"Karpalopolku rengasreitti (1,7km), Vajosuon kierros (3km), Savojärven kierros (6km), Pukkipalon rengasreitti (6km tai 9km), Vajosuon vaellus rengasreitti (30km)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Lauhanvuori",
+    "lat":62.15212,
+    "lng":22.17508,
+    "osoite":"Lauhavuorentie 656, Isojoki",
+    "aktiviteetti":["patikointi, pyöräily, hiihto"],
+    "reitit":"Rantapolku rengasreitti, (2,3km), Pirunkierros rengasreitti (4km), Terassikierros rengasreitti (8,7km), Pyörailyreitti erikseen",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Leivonmäki",
+    "lat":61.93481,
+    "lng":25.97980,
+    "osoite":"Syysniementie 1072, Joutsa",
+    "aktiviteetti":["patikointi, pyöräily, melonta, hiihto"],
+    "reitit":"Harjujärven reitti (700m/suunta), Luupään lenkki (2,2km), Kirveslammen kierros (1,7km), Harjunlahden yhdysreitti (3km/suunta), Koskikaran kierros (3,5km), Harjun kierros (4,5km), Mäyrän kierros (5,5km), Rutalahden yhdysreitti (11km/suunta), Pyöräilyreitti erikseen",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Lemmenjoki",
+    "lat":68.63880,
+    "lng":25.59849,
+    "osoite":"Lemmenjoen kylätie 107, Inari",
+    "aktiviteetti":["patikointi, pyöräily, melonta"],
+    "reitit":"Lemmenjoen luontopolku rengasreitti (4,5km), Lemmenjoen Kultareitti rengasreitti (25km), Sallivaaran polku (6km/suunta), Joenkielisen kierros (16km), Jokivarren retkeilyreitti (22km/suunta), Ravadasjärvi-Morgamojan Kultala-Kultasatama-Ravdasjärvi (26,5km)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Liesjärvi",
+    "lat":60.65359,
+    "lng":23.89763,
+    "osoite":"Korteniementie 242, Tammela",
+    "aktiviteetti":["patikointi, pyöräily, melonta"],
+    "reitit":"Ahonnokan luontopolku (1,3km), Punatulkun kierros (3,1km), Pohjantikan kierros (5km), Hyypiön reitti (2,8km), Pyöräilyreitti erikseen",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Linnasaari",
+    "lat":62.11030,
+    "lng":28.50979,
+    "osoite":"Poronsalmentie 313, Rantasalmi",
+    "aktiviteetti":["patikointi, melonta"],
+    "reitit":"Linnonpolku (2km), Linnavuorenpolku (7km)",
+    "web":"?"
+    },
+    {
+    "nimi":"Nuuksio",
+    "lat":60.29296,
+    "lng":24.55741,
+    "osoite":"Haukkalammentie 32, Espoo",
+    "aktiviteetti":["patikointi, pyöräily"],
+    "reitit":"Nahkiaispolku rengasreitti (2km), Punarinnankierros rengasreitti (2km), Kaarniaispolku rengasreitti (2,7km), Haukankierros rengasreitti (4km), Klassarinkierros rengasreitti (4km), Korpin kierros rengasreitti (8km)",
+    "web":"kotisivuNuuksio.html"
+    },
+    {
+    "nimi":"Oulanka",
+    "lat":66.37459,
+    "lng":29.32218,
+    "osoite":"Liikasenvaarantie 132, Kuusamo",
+    "aktiviteetti":["patikointi, pyöräily, melonta"],
+    "reitit":"Könkään Kuohu (100m/suunta), Napapiirin nopia (500m/suunta), Kiutakönkään polku (1km/suunta), Hiiden hurmos (5km), Rytikönkään reissu (5-7km), Kanjonin kurkkaus (6km), Könkään keino (8km), Pieni Karhunkierros (12km), Keroharjun kuiskaus (17km/suunta), Karhunkierros (82km), Pyöräilyreitit erikseen",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Pallas-Yllästunturi",
+    "lat":67.96660,
+    "lng":24.13330,
+    "osoite":"Tunturitie 54, Äkäslompolo",
+    "aktiviteetti":["patikointi, pyöräily, melonta, hiihto"],
+    "reitit":"Jyppyrän polku (1,8km/suunta), Pahakurun tunturireitti (22,4km/suunta), Pyhäkeron patikka (23,1km), Pahakurun tunturireitti (22,4km/suunta), Palkaskeron kierros (6,9km), Pyhäjoen luontopolku (3,5km), Pallas-Ylläs vaellusreitti (68,7km/suunta), Vatikurun luontopolku (3,1km), Kesänkijärven kierros (5,6km),Kiirunkieppi (8,6km), Kukastunturin kierros (20,2km), Moloslaenkierros (11,4km),Pirunkurun ponnistus (8km), Saivonkierros 3,5km), Totovaaran tunturireitti (13,4km), Tuomikurun kierros (6,3km), Vareslaen kierros (10km), Varkaankurunpolku (3,5km)",
+    "web":"kotisivuPallas-Yllas.html"
+
+    },
+    {
+    "nimi":"Patvinsuo",
+    "lat":63.11316,
+    "lng":30.70119,
+    "osoite":"Suomuntie 56, Lieksa",
+    "aktiviteetti":["patikointi, pyöräily, melonta"],
+    "reitit":"Kuusipolku (3km), Lakkapolku (3,3km), Mäntypolku (4,5km), Suomunkierto (16km), Patvinkierto (25km)",
+    "web":"?"
+    },
+    {
+    "nimi":"Perämeri",
+    "lat":65.73517,
+    "lng":24.55303,
+    "osoite":"94100 Sisäsatama, Kemi",
+    "aktiviteetti":["patikointi,veneily, sukellus"],
+    "reitit":"Selkä-Sarven luontopolku Ailinpietille (1km/suunta), Polku Klujärven kautta vanhalle kalastustukikohdalle (0,5km)",
+    "web":"?"
+    },
+    {
+    "nimi":"Petkeljärvi",
+    "lat":62.59040,
+    "lng":31.17905,
+    "osoite":"Petkeljärventie 61, Ilomantsi",
+    "aktiviteetti":["patikointi, pyöräily, melonta"],
+    "reitit":"Kuikan kierros (6,5km), Harjupolku (3,5km), Korkeasärkän polku (2km/suunta), Taitajantaival (31km)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Puurijärvi ja Isosuo",
+    "lat":61.24029,
+    "lng":22.59379,
+    "osoite":"Mutilahdentie 201, Huittinen",
+    "aktiviteetti":["patikointi, melonta"],
+    "reitit":"Isosuon pohjoisreunalla luontopolku (2km), Kärjenkallion lintutorni (800m/suunta)",
+    "web":"?"
+    },
+    {
+    "nimi":"Pyhä-Häkki",
+    "lat":62.85048,
+    "lng":25.48914,
+    "osoite":"Viitasaarentie 2119, Saarijärvi",
+    "aktiviteetti":["patikointi, pyöräily, hiihto"],
+    "reitit":"Riihinevan rengasreitti (1,4km), Mastomäen rengasreitti (3,2km), Kotajärven rengasreitti (6,5km), Tulijärven reitti(17km)",
+    "web":"kotisivuPyha-Hakki.html"
+
+    },
+    {
+    "nimi":"Pyhä-Luosto",
+    "lat":67.08529,
+    "lng":26.91898,
+    "osoite":"Luontotie 1, Pyhätunturi",
+    "aktiviteetti":["patikointi, pyöräily, hiihto"],
+    "reitit":"Tunturiaavan luontopolku (7km), Karhunjuomalammen reitti (10km), PyhäLuoston retkeilyreitti (30km/suunta), Ukko-Luoston huippu (4-6,5km), Poropolku (7km), Luosto-Yli-Luosto reitti (8-12km/suunta), Rykimäkurun reitti (12-14km), Noitatunturin valloitus (14,5km), Luoston vaellusluontopolku (17km), Ukko-Luoston retkeilyreitti (18km), Pyöräilyreitit erikseen",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Päijänne",
+    "lat":61.38873,
+    "lng":25.43494,
+    "osoite":"?",
+    "aktiviteetti":["patikointi, melonta, veneily, sukellus"],
+    "reitit":"Pulkkilanharjun luontopolku (4,4km), Kelventeen retkeilyreitti (8km/suunta), Päijätsalon reitti (4,1km), Kammiovuoren retkeilyreitti (3,8km), Päijänne-Ilves yhdysreitti (12,6km/suunta), Aurinko-Ilves-yhdysreitti (30km/suunta)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Repovesi",
+    "lat":61.18789,
+    "lng":26.90196,
+    "osoite":"Kuismantie 990, Kouvola",
+    "aktiviteetti":["patikointi, pyöräily, melonta, kiipeily"],
+    "reitit":"Lapinsalmen sillan reitti (700m/suunta), Talaksen reitti (800m/suunta), Sukeltajaniemen reitti (900m/suunta), Määkijän reitti (1,7km/suunta), Ketunlenkki (3,5km), Korpinkierros (4,3km), Koppelonkierros (8,3km), Kaakkurinkierros (26km)",
+    "web":"kotisivuRepovesi.html"
+
+    },
+    {
+    "nimi":"Riisitunturi",
+    "lat":66.22631,
+    "lng":28.49397,
+    "osoite":"Patoniementie 180, Posio",
+    "aktiviteetti":["patikointi, hiihto"],
+    "reitit":"Riisin rääpäsy rengasreitti (4,3km), Riisin rietas rengasreitti (10,7km), Riisin rykäsy (hiihto) rengasreitti (16km), Riisitunturin reitti 26(km)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Rokua",
+    "lat":64.58644,
+    "lng":26.50592,
+    "osoite":"Jaakonjärventie 2, Utajärvi",
+    "aktiviteetti":["patikointi, pyöräily"],
+    "reitit":"Harjunpolku (2,5km), Pookinpolku (8km), Keisarinkierros (19km)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Saaristomeri",
+    "lat":59.93448,
+    "lng":21.81165,
+    "osoite":"?",
+    "aktiviteetti":["patikointi, melonta, veneily"],
+    "reitit":"Berghamnin luontopolut (5oom ja 800m), Björkön luontopolku (2,3km), Boskärin luontopolku(700m), Linsnon luontopolku(600m), Gölpön luontopolku(2km), Högland luontopolku (1,5km), Jungfrukärin luontopolku (3km), Konungsskär (300m), Stora Hästö Luontopolku (1,3km), Yxskär luontopolku (800m); Örö 6 kierros (4,7km), Örö 120mm kierros (5,1kmm)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Salamajärvi",
+    "lat":63.23580,
+    "lng":24.82293,
+    "osoite":"Koirassalmentie 1220, Kivijärvi",
+    "aktiviteetti":["patikointi"],
+    "reitit":"Vasan kierros (2km), Lasten luontopolku (1,5km), Pakosuon kierros (4,3km), Metsäperäläisen taival (6,2km), Pahapuron lenkki (7km), Vaatimen kierros (18km), Risuperän yhdysreitti (7,2km/suunta)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Seitseminen",
+    "lat":61.96965,
+    "lng":23.36135,
+    "osoite":"Seitsemisentie 110, Ylöjärvi",
+    "aktiviteetti":["patikointi, pyöräily"],
+    "reitit":"Aarnipolku (1,8km), Saari-Soljanen (2km), Runokangas (2km), Harjupolku (5,2km), Torpparintaival (6,3km), Seitakierros (18,8km), Virkatie (25,9km), Pyörailyreitit erikseen",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Selkämeri",
+    "lat":61.86859,
+    "lng":21.38732,
+    "osoite":"?",
+    "aktiviteetti":["patikointi, melonta, veneily, sukellus"],
+    "reitit":"Porin Iso-Enskerissä (1,4km ja 3km), Luvian Säpissä: Alfredin polku (1,5km), Rauman Kuuskajaskarissa (3km)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Sipoonkorpi",
+    "lat":60.31246,
+    "lng":25.16240,
+    "osoite":"Länsitie 305, Sipoo",
+    "aktiviteetti":["patikointi, pyöräily, hiihto"],
+    "reitit":"Storträsk (1km/suunta), Byabäckenin luontopolku (1,4km rengasreittinä 2,1km), Kalkinpolttajanpolku (4,8km)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Syöte",
+    "lat":65.77922,
+    "lng":27.65848,
+    "osoite":"Erätie 1, Syöte",
+    "aktiviteetti":["patikointi, pyöräily, melonta, hiihto"],
+    "reitit":"Salojen siivekkäät (500m), Naavaparranpolku (3km),Teerivaaran kierros (4,5km), Ahmankierros (17km), Syötteen kierros (19km), Toraslammen kierros (30km)",
+    "web":"?"
+    
+    },
+    {
+    "nimi":"Tammisaaren saaristo",
+    "lat":59.87282,
+    "lng":23.39707,
+    "osoite":"?",
+    "aktiviteetti":["patikointi, melonta, veneily, sukellus"],
+    "reitit":"Älgön luontopolku (2km), Modermaganin luontopolku (1,5km), Jussarön polku (4,7km)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Teijo",
+    "lat":60.21031,
+    "lng":22.93610,
+    "osoite":"Matildanjärventie 79, Salo",
+    "aktiviteetti":["patikointi, pyöräily, melonta"],
+    "reitit":"Totin luontopolku (1,3km), Punassuon reitti (2,1km/suunta), Nenustan kierros (3,6km), Jeturkastin muinaispolku (4,6km), Onnelannummen reitti (4,9km), Matildajärven kierros (5,5km), Sahajärven kierros (8,8km)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Tiilikkajärvi",
+    "lat":63.66148,
+    "lng":28.29927,
+    "osoite":"Valtimontie 1095, Rautavaara",
+    "aktiviteetti":["patikointi, hiihto, melonta"],
+    "reitit":"Uiton kierto (7km), Tiilikan kierto (18km), Aution kierto (3,4km)",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Torronsuo",
+    "lat":60.73136,
+    "lng":23.63251,
+    "osoite":"Somerontie 732, Tammela",
+    "aktiviteetti":["patikointi, hiihto"],
+    "reitit":"Kierros Kiljamon ympäri (1,5km), Härkäsaaren vanha louhos (3km/suunta)",
+    "web":"?"
+    },
+    {
+    "nimi":"Urho Kekkosen kansallispuisto",
+    "lat":68.16665,
+    "lng":28.24996,
+    "osoite":"Lutontie 10-12, Saariselkä",
+    "aktiviteetti":["patikointi, hiihto, pyöräily"],
+    "reitit":"Ahopää (14km), Auroranpolku (2,1km), Iisakkipää (3km tai 7km), Kiirunapolku (6km), Luulampi(11km), Poropolku (5,3km), Prospektori (7,4km tai 9km), Rumakuru (14km), Vasapolku (1km), Luirojärven vaellus (70-80km), Ruijanpolku (35km), Nuorttijoen retkeilyreitti (40km), Kemihaara-Korvatunturinmurusta retkeilyreitti (20km/suunta), Urpiaislenkki (1km), Sotahistoriapolku (1,5km/suunta), Koppelolenkki (3km), Kuukkelilenkki (6km), Geologinen polku (7km), Rautalammen kierros (22km), Taajoslaavun polku (26km), Moitakurun reitti (25km), Pyöräilyreitit erikseen",
+    "web":"?"
+
+    },
+    {
+    "nimi":"Valkmusa",
+    "lat":60.57203,
+    "lng":26.70506,
+    "osoite":"Vastilantie 886, Pyhtää",
+    "aktiviteetti":["patikointi, hiihto"],
+    "reitit":"Läntisen keitaan lenkki (2,3km), Morovuoren tupa (2km/suunta)",
+    "web":"?"
+
+    }
+]

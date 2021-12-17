@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retkelle kansallispuistoon</title>
+    <link rel="stylesheet" href="kanspuistot.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rock+Salt&display=swap" rel="stylesheet">
+
+    
+</head>
+<body onload="init()">
+    <header>
+        <h1 id="sivunalku">Retkelle kansallispuistoon</h1>
+  
+      </header>
+  
+      <nav>
+        <ul>
+            <li><a href="etusivu.html">Etusivu</a></li>
+            <li><a href="abc.html">Retkeilyn ABC</a></li>
+            <li><a href="kuvagalleria.html">Kuvagalleria</a></li>
+            <li><a href="lomake.html">Retkipalaute</a></li>
+        </ul>
+      </nav>
+<main>
+<section class="puisto-container">
+   
+        <h2>Nuuksio</h2>
+    
+    
+        <img class="puisto-kuva" src="kuvat/metsäpuro.jpg" alt="metsäpuro">
+    
+    <section class="puisto-kuvaus"> 
+        <p class="kuvaus">Viritä arkesi uudelle tasolle metropolin lähikansallispuistossa.
+             Nuuksion luonnossa voit liikkua monipuolisesti: harrastaa työpäivän jälkeen tai
+              kaupunkilomalla tai pakata repun reippaalle viikonloppuretkelle perheen kanssa. Nuuksion järvet, metsät,
+               laaksot, suot ja kalliot tarjoavat täydellisen retkiympäristön.
+                Piipahda myös Suomen luontokeskus Haltiassa tutustumassa koko Suomen luontoon. <br>
+        <br>
+        Soveltuvuus: Koko perheen ja matkailijan kohde. Haukkalammen, Kattilan ja Haltian alueella pääsee liikkumaan pyörätuolilla.
+        </p>
+    </section>
+    <section class="saa">
+        <h3>Sää Nuuksiossa</h3>
+        <div class="future-forecast">
+            <div class="today" id="current-temp">
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" 
+                alt="weather icon" class="w-icon">
+                <div class="other">
+                    <div class="day">Maanantai</div>                            
+                    <div class="temp">Päivä - 35.6&#176; C</div>
+                </div>
+            </div>
+    
+            <div class="weather-forecast" id="weather-forecast">
+                <div class="weather-forecast-item">
+                     <div class="day">Tiistai</div>
+                     <img src="http://openweathermap.org/img/wn/10d@2x.png" 
+                     alt="weather icon" class="w-icon">                   
+                     <div class="temp">Päivä - 35.6&#176; C</div>
+                </div> 
+                <div class="weather-forecast-item">
+                     <div class="day">Keskiviikko</div>
+                     <img src="http://openweathermap.org/img/wn/10d@2x.png" 
+                     alt="weather icon" class="w-icon">   
+                     <div class="temp">Päivä - 35.6&#176; C</div>
+                </div> 
+                <div class="weather-forecast-item">
+                     <div class="day">Torstai</div>
+                     <img src="http://openweathermap.org/img/wn/10d@2x.png" 
+                     alt="weather icon" class="w-icon">   
+                     <div class="temp">Päivä - 35.6&#176; C</div>
+                </div> 
+                <div class="weather-forecast-item">
+                     <div class="day">Perjantai</div>
+                     <img src="http://openweathermap.org/img/wn/10d@2x.png" 
+                     alt="weather icon" class="w-icon">  
+                     <div class="temp">Päivä - 35.6&#176; C</div>
+                </div> 
+                <div class="weather-forecast-item">
+                     <div class="day">Lauantai</div>
+                     <img src="http://openweathermap.org/img/wn/10d@2x.png" 
+                     alt="weather icon" class="w-icon">    
+                     <div class="temp">Päivä - 35.6&#176; C</div>
+                </div> 
+                <div class="weather-forecast-item">
+                     <div class="day">Sunnuntai</div>
+                     <img src="http://openweathermap.org/img/wn/10d@2x.png" 
+                     alt="weather icon" class="w-icon">      
+                     <div class="temp">Päivä - 35.6&#176; C</div>
+                </div> 
+    
+            </div>
+        </div>
+    </section>   
+    
+    <section>
+        <div>
+          <h3>Palautteet</h3>                  
+          <div id="palauteList"></div>
+          <p id="infoText"></p>
+        </div>
+    </section>
+
+    </section>
+
+</main>
+      <footer>
+        <a href="#sivunalku"> Sivun alkuun</a>
+        <div>&copy;Miia&Sanni</div>
+    </footer>
+    
+    <script src="kotisivuNuuksio.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment-with-locales.min.js"></script>
+    
+</body>
+</html>

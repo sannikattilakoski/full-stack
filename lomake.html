@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="fi">
+
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Retkelle kansallispuistoon</title>
+    <link rel="stylesheet" href="kanspuistot.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rock+Salt&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <header>
+      <h1 id="sivunalku">Retkelle kansallispuistoon</h1>
+
+    </header>
+
+    <nav>
+      <ul>
+          <li><a href="etusivu.html">Etusivu</a></li>
+          <li><a href="abc.html">Retkeilyn ABC</a></li>
+          <li><a href="kuvagalleria.html">Kuvagalleria</a></li>
+          <li>Retkipalaute</li>
+      </ul>
+    </nav>
+
+    <main>
+    
+      <p>Jaathan kokemuksesi kansallispuistoreissustasi. <br>Voit antaa risuja, ruusuja tai kertoa retkitarinasi muutamalla lauseella.</p>
+        
+      <form>
+  
+        <h2 class="lomake">Anna palautteesi</h2>
+
+        <h4>Valitse kansallispuisto</h4>
+        <select name="text" id="newPuisto" required>
+          <option value="">Valitse</option>
+          <option value="Koli">Koli</option>
+          <option value="Pallas-Ylläs">Pallas-Ylläs</option>
+          <option value="Pyhä-Häkki">Pyhä-Häkki</option>
+          <option value="Nuuksio">Nuuksio</option>
+          <option value="Repovesi">Repovesi</option>
+        </select>
+
+        <h4>Vapaamuotoinen palaute</h4>
+        <textarea id="newPalaute" rows="15" required></textarea>
+
+        <h4>Nimimerkki</h4>
+        
+        <div class="name">
+          <input type="text" id="newName" placeholder="Nimimerkki" required>
+        </div>
+
+        <div class="nappi">
+          <button onclick="addPalaute()">Lähetä</button>
+          <button type="reset">Tyhjennä</button>
+        </div>
+
+      </form>
+  
+
+      <script src="code.js"></script> 
+
+    </main>
+
+    <footer>
+        <a href="#sivunalku"> Sivun alkuun</a>
+        <div>&copy;Miia&Sanni</div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,675 @@
+﻿article, aside, figure, footer, header, main, nav, section  {
+  display: block;
+  }
+
+body {
+    background-color: #F5FAFA;
+    font-family: 'Bebas Neue', cursive;
+    width: 1024px;
+    margin: auto;    
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(kuvat/luonto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+header h1 {
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+nav {
+  background-color: #0B451C; 
+  text-align: center; 
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 30px;
+  
+}
+
+nav ul {  
+  display:inline; 
+  padding:10px 0px 10px 0px;
+  vertical-align: middle;
+}
+
+nav ul li {
+  display:inline; 
+  margin:0px 15px;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 1.3em;
+  
+}
+
+/* Linkkitekstit */
+nav ul li a:link {
+    color: #fff;
+    background: transparent;
+    text-decoration: none;
+}
+
+nav ul li a:visited {
+color: #fff;
+background: transparent ;
+}
+
+nav ul li a:hover {
+color :  #fff;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav ul li a:active {
+color :  #fff;
+background : transparent;
+}
+
+main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*index-sivu*/
+p#esittely {  
+  width: 800px;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 0.5px;
+}
+
+.custom-popup { 
+  height: 1000px; 
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+  
+.custom-popup .leaflet-popup-content-wrapper {
+  background:#d7fae4;
+  font-size:12px;
+  line-height:18px;
+  position: relative;
+  top: -30px;
+  font-family: 'Lato', sans-serif;
+}
+
+.custom-popup .leaflet-popup-content-wrapper a {
+  color:rgba(0,0,255,0.5);
+}
+
+.custom-popup .leaflet-popup-tip-container {
+  width:30px;
+  height:15px;
+}
+
+.custom-popup .leaflet-popup-tip {
+  border-left:15px solid transparent;
+  border-right:15px solid transparent;
+  border-top:15px solid #2c3e50;
+}
+
+/*ABC-sivu*/
+section.abc-container {
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  position: relative;
+  
+  height: 250px;
+  border: 3px solid #73AD21;
+}
+
+section.abc-container .teksti, section.abc-container h3{
+  width: 40%;
+} 
+
+img.kuva {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 10px;
+  max-width: 60%;
+  max-height: 240px;
+  border: 3px solid #73AD21;
+
+}  
+
+p.lisa {
+  margin: auto; 
+  padding: 5px;
+  background-color: #0B451C;
+  color:white;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;  
+}
+
+p.lisa a {
+  text-decoration: none;
+  color: white;
+  background: transparent;
+}
+
+/*Footer*/
+footer {
+  width: 100%;  
+  margin: 50px auto 20px;
+  background-image: url(kuvat/luonto.jpg);
+  background-color: #cccccc;
+  height: 100px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;  
+  }
+
+footer a {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  color: white;  
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+footer div {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  color: white; 
+  letter-spacing: 0.5px;
+}
+
+/*Kuvagalleria-sivu*/
+#otsikko {
+  text-align: center;  
+}
+
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5 {
+display: none
+}
+
+.slideshow-container {
+border: #73AD21 3px solid;
+width: 100%;
+position: relative;
+margin:0 auto 25px;
+}
+
+.slideshow-container img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+padding: 16px;
+margin-top: -22px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+background-color: #f1f1f1;
+color: black;
+}
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {
+opacity: .4
+}
+to {
+opacity: 1
+}
+}
+
+@keyframes fade {
+from {
+opacity: .4
+}
+to {
+opacity: 1
+}
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  }
+
+.active, .dot:hover {
+  background-color: #717171;
+  }
+  
+.image {
+  margin-bottom: 5px;
+  color: whitesmoke;
+  height:20px;
+  background:darkolivegreen;
+}
+
+
+/*Yksittäisen kansallispuisto-sivun muotoilut*/
+section.puisto-container {
+  display: block;
+  position: relative;
+  margin-top: 10px;
+  padding: 10px;
+  /* width: 100%; */
+  /* max-height: 2000px; */
+  border: 3px solid #73AD21;
+}
+  
+img.puisto-kuva{
+  margin-top: 10px;
+  width: 100%;
+    
+}  
+  
+section.puisto-kuvaus {
+  margin-top: 10px;  
+  max-height:270px;
+  /* width: 100%; */
+}
+  
+p.kuvaus {
+  margin-top: 5px;  
+}
+  
+section.saa {
+  width: 100%;
+  margin-top: 10px; 
+}
+
+.future-forecast {
+  background: rgba(8, 121, 78, 0.8);
+  padding: 20px 0;      
+  bottom: 10px; 
+  display: flex;
+  color: white;  
+  align-items: center;
+  justify-content: center;    
+}
+
+.future-forecast .today {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.2);
+  }
+
+.future-forecast .today .other {
+  margin: 0 10px;
+}
+
+.future-forecast .today .day {
+  padding: 5px 15px;
+  background: #3c3c44;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.future-forecast .today .temp {
+  font-size: 25px;
+  padding: 15px; 
+}
+
+.future-forecast .today .desc {
+  text-align: center;
+  font-size: 12px;
+}
+
+.future-forecast .weather-forecast {
+  display: flex;  
+}
+
+.weather-forecast .weather-forecast-item {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 5px;
+  background: rgba(0,0,0,0.2);
+}
+
+.weather-forecast .weather-forecast-item .day {
+  padding: 5px 15px;
+  background: #3C3C44;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.weather-forecast .weather-forecast-item .temp {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.weather-forecast .weather-forecast-item .desc {
+  font-size: 12px;
+  text-align: center;
+}
+
+
+#nickname {
+  font-size: 90%;  
+  margin-bottom: 1px;
+  margin-left: 1px;
+}
+
+#newPuisto {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#time {
+  font-size: 90%;
+  color: gray;
+  
+}
+
+#feedback {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+  
+/* Lomake-sivu */
+div.name, div.nappi, form, input, select {
+  outline: none;      
+  }
+
+h4 {
+  margin-bottom: 0;
+  margin-left: 2px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+h2.lomake {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+form {
+  margin-top: 20px;
+  padding: 20px;
+  background: rgb(199, 241, 197) ;
+  box-shadow: 0 2px 5px rgb(54, 175, 6); 
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+input:hover, textarea:hover, select:hover {
+  outline: none;
+  border: 1px solid #0e462c;
+}   
+
+#newPuisto {
+    font-size: 14px;
+    background-color: white;
+}
+
+.name input {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+select {
+  width: 100%;
+  padding: 5px 0;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  
+}
+
+option {
+  font-size: 14px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;  
+  font-size: 14px;
+  font-family: 'Oswald', sans-serif;
+  resize: none;
+}
+
+.nappi {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  -webkit-border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  border-radius: 5px; 
+  background-color:#0B451C;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: green;
+}
+
+@media screen and (min-width: 639.99px) and (max-width: 1024px) {
+
+body {
+  width: 100%;
+}
+
+section.abc-container .teksti, section.abc-container h3 {
+  width: 30%;
+  
+} 
+
+img.kuva {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 10px;
+  border: 3px solid #73AD21;
+  
+}
+
+.custom-popup {
+  width: 100%;
+}
+
+.future-forecast{
+  justify-content: start;
+  overflow-y: scroll;
+}
+
+.future-forecast .today {
+  margin-left: 10px;
+}
+
+}
+
+@media screen and (max-width: 640px) {
+  
+body {
+  width: 100%;
+}
+
+header h1 {
+  line-height: 100px;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  width: 100%;
+  background-color: #fff;
+  padding: 0px;  
+}
+    
+nav ul li {            
+  background-color: #0B451C;
+  display: block;
+  margin: 5px;
+  padding: 10px;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  padding: 5px;
+}
+
+main p {
+  max-width: 100%;
+}
+
+.custom-popup {
+  width: 100%;
+  height: 600px;     
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+  width: 300px;
+}
+
+section.abc-container {
+  height: 400px;
+}
+
+section.abc-container .teksti, section.abc-container h3{
+  width: 100%;
+}
+
+img.kuva {
+  position: absolute;
+  top: 70px;
+  margin: auto;
+  left: 0;
+  right: 0;   
+  max-width: 90%;
+  max-height: 240px;
+  border: 3px solid #73AD21;
+} 
+
+.future-forecast{
+  display:block;
+  padding: 10px 0;
+}
+
+.future-forecast .today {
+  display: block;
+  margin: 15px;
+}
+
+.future-forecast .today .day {
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  
+}
+.future-forecast .today .temp {
+  font-size: 30px;
+  text-align: center;
+}
+
+.future-forecast .today img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.future-forecast .weather-forecast {
+  display: block;
+  
+}
+
+.weather-forecast .weather-forecast-item {
+  margin: 5px 50px;
+}
+
+#feedback-container {
+  width: 100%;
+}
+
+button {
+  margin-top: 5px;
+}
+}
+
+@media screen and (min-width: 568px) {
+  .name {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .name input {
+    width: 47%;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <title>Retkelle kansallispuistoon</title>
+      <link rel="stylesheet" href="kanspuistot.css">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap" rel="stylesheet">
+ 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+      integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+      crossorigin=""/>
+
+      <!--Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+      integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+      crossorigin=""></script>
+
+
+
+</head>
+
+<body>
+    <header>
+      <h1 id="sivunalku">Retkelle kansallispuistoon</h1>
+
+    </header>
+
+    <nav>
+      <ul>
+          <li>Etusivu</li>
+          <li><a href="abc.html">Retkeilyn ABC</a></li>
+          <li><a href="kuvagalleria.html">Kuvagalleria</a></li>
+          <li><a href="lomake.html">Retkipalaute</a></li>
+      </ul>
+    </nav>
+
+    <main>
+         
+      <p id="esittely">Suunnitteletko kansallispuistossa vierailua? <br>Kartan kohteita klikkaamalla löydät 
+        lisätietoa maamme retkikohteista.</p>
+
+        <div class='custom-popup' id="mapid"></div>
+  
+
+        <script src="kanspuistot.js"></script> 
+
+    </main>
+    <footer>
+        <a href="#sivunalku"> Sivun alkuun</a>
+        <div>&copy;Miia&Sanni</div>
+    </footer>
+</body>
+
+</html>
