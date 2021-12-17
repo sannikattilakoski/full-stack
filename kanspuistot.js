@@ -7,7 +7,7 @@ maxZoom: 9,
 minZoom: 5,
 zoomOffset: -1,
 id: 'mapbox/streets-v11',
-accessToken: 'sk.eyJ1IjoiYWI1MTM0IiwiYSI6ImNrdXNkdWdmazBtdHMycW8yZXR6dTBzNXEifQ.wa4QWz_PeQPSLke_MYHnYg'
+accessToken: '<accesstoken>'
 }).addTo(mymap);
 
 var hikeIcon = L.icon({
