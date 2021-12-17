@@ -1,7 +1,7 @@
 ﻿const weatherForecastEl = document.getElementById('weather-forecast');
 const currentTempEl = document.getElementById('current-temp');
 
-const api_key = '24c095de824800f129ede8e30b09e5b9'
+const api_key = '<api_key>'
 
 getWeatherData()
 function getWeatherData () {
